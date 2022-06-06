@@ -5,14 +5,15 @@ body {
 
 h1 {
     font-family: sans-serif; 
-    color: rgb(64, 96, 96);
+    color: rgb(66, 66, 66);
 }
 
-.inline {
-    display: inline;
-    width: 100px;
-    height: 100px;
-    padding: 5px;
+.titleApp {
+    font-size: 4rem;
+}
+
+.numberBig {
+    font-size: 3rem;
 }
 
 .btnPlus {
