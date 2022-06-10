@@ -13,7 +13,7 @@
     </center>
     <center>
     <button class="btnPlus">+</button>
-    <h1 class="numberBig">0</h1>
+    <h1 id="counterLabel" class="numberBig">0</h1>
     <button class="btnMinus">-</button>
     </center>
 </body>
@@ -22,3 +22,23 @@
 <footer><i>Developed with ❤️ by <a href="https://github.com/mattbrambilla" class="blank"> Mattia Brambilla </a> </i></footer>
 </center>
 </html>
+
+<script>
+    var counterVal = 0;
+
+function btnPlus() {
+    updateDisplay(++counterVal);
+    break
+}
+
+function btnMinus() {
+    counterVal = 0;
+    updateDisplay(counterVal);
+    break
+}
+
+function updateDisplay(val) {
+    document.getElementById("counter-label").innerHTML = val;
+}
+
+</script>
