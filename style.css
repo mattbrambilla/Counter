@@ -15,7 +15,7 @@ h1 {
 
 .numberBig {
     font-size: 3rem;
-    position: relative;
+    position: absolute;
     left: 50%;
 }
 
@@ -72,3 +72,10 @@ h1 {
     transform: scale(1.05) rotate(-1deg);
   }
   
+  footer {
+    position: fixed;
+    margin-top:10vh;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
