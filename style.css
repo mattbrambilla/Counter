@@ -36,7 +36,7 @@ h1 {
   -webkit-user-select: none;
   touch-action: manipulation;
   position: fixed;
-  left: 35%;
+  left: 63%;
   margin-top: 2.55rem;
 }
 
@@ -62,7 +62,7 @@ h1 {
     -webkit-user-select: none;
     touch-action: manipulation;
     position: fixed;
-    left: 63%;
+    left: 35%;
     margin-top: 2.55rem;
     
   }

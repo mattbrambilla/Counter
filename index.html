@@ -12,9 +12,9 @@
     <h1 class="titleApp">counterApp v.1</h1>
     </center>
     <center>
-    <button class="btnPlus">+</button>
-    <h1 id="counterLabel" class="numberBig">0</h1>
     <button class="btnMinus">-</button>
+    <h1 id="counterLabel" class="numberBig">0</h1>
+    <button class="btnPlus">+</button>
     </center>
 </body>
 <br/>
@@ -24,10 +24,18 @@
 <script>
     var counterVal = 0;
 
-function btnPlus() {
-    updateDisplay(++counterVal);
-    break
+
+
+function addNumber() {
+    let actualNumber = document.getElementById(numberBig)
+    el.innerHTML = counterVal + x;
 }
+
+
+btnPlus.onclick = function(addNumber){    
+};
+
+
 
 function btnMinus() {
     counterVal = 0;
