@@ -12,39 +12,46 @@
     <h1 class="titleApp">counterApp v.1</h1>
     </center>
     <center>
-    <button class="btnMinus">-</button>
+    <button class="btnMinus" id="btnMinus">-</button>
     <h1 id="counterLabel" class="numberBig">0</h1>
-    <button class="btnPlus">+</button>
+    <button class="btnPlus" id="btnPlus">+</button>
     </center>
 </body>
 <br/>
-<footer><i>Developed with ❤️ by <a href="https://github.com/mattbrambilla" class="blank"> Mattia Brambilla </a> </i></footer>
+<!-- <footer><i>Developed with ❤️ by <a href="https://github.com/mattbrambilla" class="blank"> Mattia Brambilla </a> </i></footer> -->
 </html>
 
 <script>
-    var counterVal = 0;
+
+    const togli = document.getElementById('btnMinus');
+    const aggiungi = document.getElementById('btnPlus');
+    let numero = document.getElementById('counterLabel');
+
+    aggiungi.onclick = function risultato(){
+        numero + 1;
+        console.log(risultato);
+        // document.getElementById('counterLabel').innerHTML = risultato;
+    }
 
 
+//     var counterVal = 0;
 
-function addNumber() {
-    let actualNumber = document.getElementById(numberBig)
-    el.innerHTML = counterVal + x;
-}
+// function addNumber() {
+//     let actualNumber = document.getElementById(numberBig)
+//     el.innerHTML = counterVal + x;
+// }
 
+// btnPlus.onclick = function(addNumber){    
+// };
 
-btnPlus.onclick = function(addNumber){    
-};
+// function btnMinus() {
+//     counterVal = 0;
+//     updateDisplay(counterVal);
+//     break
+// }
 
-
-
-function btnMinus() {
-    counterVal = 0;
-    updateDisplay(counterVal);
-    break
-}
-
-function updateDisplay(val) {
-    document.getElementById("counter-label").innerHTML = val;
-}
+// function updateDisplay(val) {
+//     document.getElementById("counter-label").innerHTML = val;
+// }
 
 </script>
