@@ -13,8 +13,9 @@
     </center>
     <center>
     <button class="btnMinus" id="btnMinus">-</button>
-    <h1 id="counterLabel" class="numberBig">0</h1>
-    <button class="btnPlus" id="btnPlus">+</button>
+    <!-- <input id="counterLabel2" class="numberBig">0</input> -->
+    <h1 id="counterLabel".value class="numberBig"></h1>
+    <button class="btnPlus" id="btnPlus" onclick="addNumber">+</button>
     </center>
 </body>
 <br/>
@@ -26,21 +27,25 @@
     const togli = document.getElementById('btnMinus');
     const aggiungi = document.getElementById('btnPlus');
     const numero = document.getElementById('counterLabel');
+
+    // $('counterLabel').val = number
+
     let risultato = numero + 1;
 
+    function addNumber() {
+    let actualNumber = document.getElementById(counterLabel);
+    CounterLabel.val = actualNumber + 1;
+}
 
-    aggiungi.onclick = function risultato(){
-        console.log(risultato);
-        // document.getElementById('counterLabel').innerHTML = risultato;
-    }
+
+    aggiungi.onclick =     function addNumber() {
+    let actualNumber = document.getElementById(counterLabel);
+    CounterLabel.val = actualNumber + 1;
+};
 
 
 //     var counterVal = 0;
 
-// function addNumber() {
-//     let actualNumber = document.getElementById(numberBig)
-//     el.innerHTML = counterVal + x;
-// }
 
 // btnPlus.onclick = function(addNumber){    
 // };
