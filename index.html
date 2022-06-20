@@ -24,25 +24,39 @@
 
 <script>
 
-    let numero = document.getElementById('counterLabel');
+let numero = 0;
+let elemento = document.querySelector('#counterLabel');
 
-    // $('counterLabel').val = number
 
-
-    function addNumber() {
-    let actualNumber = document.getElementById(counterLabel);
-    // CounterLabel.val = actualNumber + 1;
-    let result = actualNumber + 1;
-    document.getElementById("counterLabel").innerHTML = result;
-
+function addNumber() {
+	numero++;
+    document.getElementById("counterLabel").innerHTML = numero;
 }
 
 function removeNumber() {
-    let actualNumber = document.getElementById(counterLabel);
-    // CounterLabel.val = actualNumber + 1;
-    let result = actualNumber - 1;
-    document.getElementById("counterLabel").innerHTML = result;
+	numero--;
+    document.getElementById("counterLabel").innerHTML = numero;
 
 }
+
+// let numero = parseInt(document.querySelector('#counterLabel').innerHtml)
+//     // $('counterLabel').val = number
+
+
+//     function addNumber() {
+//     let actualNumber = document.getElementById(counterLabel);
+//     // CounterLabel.val = actualNumber + 1;
+//     let result = actualNumber + 1;
+//     document.getElementById("counterLabel").innerHTML = result;
+
+// }
+
+// function removeNumber() {
+//     let actualNumber = document.getElementById(counterLabel);
+//     // CounterLabel.val = actualNumber + 1;
+//     let result = actualNumber - 1;
+//     document.getElementById("counterLabel").innerHTML = result;
+
+// }
 
 </script>
