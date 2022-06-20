@@ -14,7 +14,7 @@
     <center>
     <button class="btnMinus" id="btnMinus" onclick="removeNumber()">-</button>
     <!-- <input id="counterLabel2" class="numberBig">0</input> -->
-    <h1 id="counterLabel".value class="numberBig">0</h1>
+    <h1 id="counterLabel" class="numberBig">0</h1>
     <button class="btnPlus" id="btnPlus" onclick="addNumber()">+</button>
     </center>
 </body>
@@ -24,39 +24,18 @@
 
 <script>
 
-let numero = 0;
-let elemento = document.querySelector('#counterLabel');
-
-
-function addNumber() {
-	numero++;
-    document.getElementById("counterLabel").innerHTML = numero;
-}
-
-function removeNumber() {
-	numero--;
-    document.getElementById("counterLabel").innerHTML = numero;
-
-}
-
-// let numero = parseInt(document.querySelector('#counterLabel').innerHtml)
-//     // $('counterLabel').val = number
-
-
-//     function addNumber() {
-//     let actualNumber = document.getElementById(counterLabel);
-//     // CounterLabel.val = actualNumber + 1;
-//     let result = actualNumber + 1;
-//     document.getElementById("counterLabel").innerHTML = result;
-
-// }
-
-// function removeNumber() {
-//     let actualNumber = document.getElementById(counterLabel);
-//     // CounterLabel.val = actualNumber + 1;
-//     let result = actualNumber - 1;
-//     document.getElementById("counterLabel").innerHTML = result;
-
-// }
-
-</script>
+    numero = 0;
+    elemento = document.querySelector('#counterLabel');
+    
+    
+    function addNumber() {
+        numero++;
+        elemento.innerHTML = numero;
+    }
+    
+    function removeNumber() {
+        numero--;
+        elemento.innerHTML = numero;
+    }
+    
+    </script></body></html>
