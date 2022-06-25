@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,38 +8,51 @@
     <link href="style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:ital,wght@0,100;0,200;0,400;1,100;1,200&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:ital,wght@0,100;0,200;0,400;1,100;1,200&display=swap"
+        rel="stylesheet">
     <title>CounterApp</title>
 </head>
+
 <body>
     <center>
-    <h1 class="titleApp">Counter</h1>
-    <p>Counter is an application developed in Javascript by <a href="https://github.com/mattbrambilla" class="blank"> Mattia Brambilla </a> for an open source project of Start2Impact. Anyone can access the repository, use the code, and redistribute it under the GNU License.</p>
+        <h1 class="titleApp">Counter</h1>
+        <p>Counter is an application developed in Javascript by <a href="https://github.com/mattbrambilla"
+                class="blank"> Mattia Brambilla </a> for an open source project of Start2Impact. Anyone can access the
+            repository, use the code, and redistribute it under the GNU License.</p>
     </center>
     <center>
-    <button class="btnMinus" id="btnMinus" onclick="removeNumber()">-</button>
-    <h1 id="counterLabel" class="numberBig">0</h1>
-    <button class="btnPlus" id="btnPlus" onclick="addNumber()">+</button>
+        <button class="btnMinus" id="btnMinus">-</button>
+        <h1 id="counterLabel" class="numberBig">0</h1>
+        <button class="btnPlus" id="btnPlus">+</button>
     </center>
 </body>
-<br/>
-<!-- <footer><i>Developed with ❤️ by <a href="https://github.com/mattbrambilla" class="blank"> Mattia Brambilla </a> </i></footer> -->
+<br />
+
 </html>
 
 <script>
 
     numero = 0;
-    elemento = document.querySelector('#counterLabel');
-    
-    
+    let elemento = document.querySelector('#counterLabel');
+    let plus = document.querySelector('#btnPlus');
+    let minus = document.querySelector('#btnMinus');
+
+
     function addNumber() {
         numero++;
         elemento.innerHTML = numero;
     }
-    
+
     function removeNumber() {
         numero--;
         elemento.innerHTML = numero;
     }
-    
-    </script></body></html>
+
+    plus.addEventListener("click", addNumber)
+    minus.addEventListener("click", removeNumber)
+
+</script>
+</body>
+
+</html>
