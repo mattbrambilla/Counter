@@ -149,9 +149,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Mattia Brambilla - [@mattbrambilla](https://twitter.com/your_username) - m.brambilla@live.it
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/mattbrambilla/Counter](https://github.com/mattbrambilla/Counter)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -164,19 +164,13 @@ Use this space to list resources you find helpful and would like to give credit 
 
 * [Choose an Open Source License](https://choosealicense.com)
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
 * [Img Shields](https://shields.io)
 * [GitHub Pages](https://pages.github.com)
 * [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/mattbrambilla/Counter.svg?style=for-the-badge
 [contributors-url]: https://github.com/mattbrambilla/Counter/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/mattbrambilla/Counter.svg?style=for-the-badge
@@ -188,5 +182,5 @@ Use this space to list resources you find helpful and would like to give credit 
 [license-shield]: https://img.shields.io/github/license/mattbrambilla/Counter.svg?style=for-the-badge
 [license-url]: https://github.com/mattbrambilla/Counter/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/mattbrambilla
+[linkedin-url]: https://www.linkedin.com/in/brambillam/
 [product-screenshot]: images/screenshot.png
