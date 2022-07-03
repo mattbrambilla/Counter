@@ -86,6 +86,8 @@ This project was created for Start2Impact
 ### Installation
 
 1. Clone the repo
+</br>
+
    ```sh
    git clone https://github.com/mattbrambilla/Counter.git
    ```
@@ -98,9 +100,7 @@ This project was created for Start2Impact
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+The project can used to learn Javascript basics and play with event.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -149,7 +149,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Mattia Brambilla - [@mattbrambilla](https://twitter.com/your_username) - m.brambilla@live.it
+Mattia Brambilla - m.brambilla@live.it
 
 Project Link: [https://github.com/mattbrambilla/Counter](https://github.com/mattbrambilla/Counter)
 
