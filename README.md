@@ -64,6 +64,8 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
+<img src="img/screen.png" alt="Screenshot">
+
 This project was created for Start2Impact
 
 <p align="right">(<a href="#top">back to top</a>)</p>
