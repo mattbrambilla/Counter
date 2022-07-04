@@ -62,11 +62,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+The project Counter was created for Start2Impact and released under MIT License.
 
 <img src="img/screen.png" alt="Screenshot">
-
-This project was created for Start2Impact
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
