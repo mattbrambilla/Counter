@@ -1,20 +1,22 @@
 let elemento = document.querySelector('#counterLabel');
 elemento.innerHTML = 0;
+let valore = 0;
 
 const plus = document.querySelector('#btnPlus');
 const minus = document.querySelector('#btnMinus');
+
 plus.innerHTML = '+';
 minus.innerHTML = '-';
 
 
 function addNumber() {
-    elemento++;
-    elemento.innerHTML = elemento;
+    valore++;
+    elemento.innerHTML = valore;
 }
 
 function removeNumber() {
-    numero--;
-    elemento.innerHTML = numero;
+    valore--;
+    elemento.innerHTML = valore;
 }
 
 plus.addEventListener("click", addNumber)
