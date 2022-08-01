@@ -1,12 +1,15 @@
-numero = 0;
 let elemento = document.querySelector('#counterLabel');
-let plus = document.querySelector('#btnPlus');
-let minus = document.querySelector('#btnMinus');
+elemento.innerHTML = 0;
+
+const plus = document.querySelector('#btnPlus');
+const minus = document.querySelector('#btnMinus');
+plus.innerHTML = '+';
+minus.innerHTML = '-';
 
 
 function addNumber() {
-    numero++;
-    elemento.innerHTML = numero;
+    elemento++;
+    elemento.innerHTML = elemento;
 }
 
 function removeNumber() {
