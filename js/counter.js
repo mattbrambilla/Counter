@@ -1,13 +1,19 @@
-let elemento = document.querySelector('#counterLabel');
-elemento.innerHTML = 0;
 let valore = 0;
 
-const plus = document.querySelector('#btnPlus');
-const minus = document.querySelector('#btnMinus');
+let elemento = document.createElement("numero");
+elemento.className = "numberBig";
+elemento.innerHTML=valore;
+document.body.appendChild(elemento);
 
-plus.innerHTML = '+';
-minus.innerHTML = '-';
+const aggiungi = document.createElement("btnPlus");
+aggiungi.className = "btnPlus";
+aggiungi.innerHTML = "+";
+document.body.appendChild(aggiungi);
 
+const rimuovi = document.createElement("btnMinus");
+rimuovi.className = "btnMinus";
+rimuovi.innerHTML = "-";
+document.body.appendChild(rimuovi);
 
 function addNumber() {
     valore++;
@@ -19,5 +25,5 @@ function removeNumber() {
     elemento.innerHTML = valore;
 }
 
-plus.addEventListener("click", addNumber)
-minus.addEventListener("click", removeNumber)
+aggiungi.addEventListener("click", addNumber)
+rimuovi.addEventListener("click", removeNumber)
