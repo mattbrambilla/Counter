@@ -1,6 +1,6 @@
 let valore = 0;
 
-let elemento = document.createElement("numero");
+let elemento = document.createElement("text");
 elemento.className = "numberBig";
 elemento.innerHTML=valore;
 document.body.appendChild(elemento);
