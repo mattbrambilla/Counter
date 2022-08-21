@@ -27,3 +27,4 @@ function removeNumber() {
 
 aggiungi.addEventListener("click", addNumber)
 rimuovi.addEventListener("click", removeNumber)
+

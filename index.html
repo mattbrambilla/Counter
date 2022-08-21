@@ -18,14 +18,119 @@
 <body>
     <center>
         <h1 class="titleApp">Counter</h1>
-        <p class="infobox">Counter is an application developed in Javascript by <a href="https://github.com/mattbrambilla"
+        <!-- <p class="infobox">Counter is an application developed in Javascript by <a href="https://github.com/mattbrambilla"
                 class="blank"> Mattia Brambilla </a> for an open source project of Start2Impact. Anyone can access the
-            repository, use the code, and redistribute it under the GNU License.</p>
+            repository, use the code, and redistribute it under the GNU License.</p> -->
     </center>
 </body>
 <br />
 
+<div class="circle-container">
+    <div class="sky">
+      <div class="sky-night">
+        <div class="stars">
+          <div class="shooting-star"></div>
+          <div class="star-group-1"></div>
+          <div class="star-group-2"></div>
+          <div class="star-group-3"></div>
+          <div class="star-group-4"></div>
+        </div>
+
+      </div>
+      <div class="cloud cloud-1"></div>
+      <div class="cloud cloud-2"></div>
+      <div class="cloud cloud-3"></div>
+      <div class="cloud cloud-4"></div>
+      <div class="cloud cloud-5"></div>
+      <div class="cloud cloud-6"></div>
+      <div class="bird bird-1"></div>
+      <div class="bird bird-2"></div>
+      <div class="bird bird-3"></div>
+
+    </div>
+
+    <div class="mountains">
+      <div class="mountain-back">
+        <div class="mountain-back-1"></div>
+        <div class="mountain-back-2"></div>
+      </div>
+      <div class="mountain-middle">
+        <div class="mountain-middle-1"></div>
+        <div class="mountain-middle-2"></div>
+      </div>
+      <div class="mountain-top">
+        <div class="mountain-top-1"></div>
+      </div>
+    </div>
+
+    <div class="sun-container">
+      <div class="sun"></div>
+    </div>
+
+    <div class="ocean">
+      <div class="boat"></div>
+      <div class="ocean-night">
+
+        <div class="moon"></div>
+
+        <div class="mountains mountains-bottom">
+          <div class="mountain-back">
+            <div class="mountain-back-1"></div>
+            <div class="mountain-back-2"></div>
+          </div>
+          <div class="mountain-middle">
+            <div class="mountain-middle-1"></div>
+            <div class="mountain-middle-2"></div>
+          </div>
+          <div class="mountain-top">
+            <div class="mountain-top-1"></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
 <script type="text/javascript" src="./js/counter.js"></script>
+
+<!-- // Code for animation background -->
+
+<script>
+
+$(function () {
+    $('.sun').click(function (e) {
+        e.stopPropagation();
+        $("html").toggleClass('container-night');
+        $(".sky-night").toggleClass('sky-night-fade');
+        $("p, h1").toggleClass('text-color');
+        $(".ocean-night").toggleClass('ocean-night-fade');
+        $(".moon").toggleClass('moon-fade');
+        $(".ocean").toggleClass('animation-stop');
+        $(".bird").toggleClass('birds-fly');
+        $(".boat").toggleClass('boat-sail');
+        $(".mountain-top, .mountain-top >*").toggleClass('mountain-top-night');
+        $(".mountain-middle, .mountain-middle >*").toggleClass('mountain-middle-night');
+        $(".mountain-back, .mountain-back >*").toggleClass('mountain-back-night');
+        $(".cloud").delay(2500).fadeToggle(2500);
+        $(".stars").toggleClass('stars-fade');
+        $(".shooting-star").toggleClass('shooting');
+
+        var angle = ($('.sun-container').data('angle') + 360) || 360;
+        $('.sun-container').css({
+            'transform': 'rotate(' + angle + 'deg)'
+        });
+        $('.sun-container').data('angle', angle);
+
+    });
+});
+
+</script>
+
+<p class="acknowledgement">
+    Developed by Mattia Brambilla | <a href="https://github.com/mattbrambilla" target="_blank">GitHub</a>  <br><br>
+    Designed by Nanou | <a href="https://dribbble.com/Nanuo" target="_blank">Dribbble</a>, <a href="https://www.behance.net/Nanuo" target="_blank">Behance</a>, <a href="https://www.instagram.com/nanuonanuo/" target="_blank">Instagram</a> and Animated by <a href="http://jackiezen.com/" target="_blank"> Jacquelyn Zen</a></p>
+
 
 </body>
 
