@@ -21,7 +21,9 @@
   <p align="center">
       A simple counter made with Html, Css and Javascript!
     <br />
-    <a href="https://62c30a4d61794705e2ca507f--strong-platypus-adb583.netlify.app/">View Demo</a>
+    <a href="https://strong-platypus-adb583.netlify.app//">View Demo</a>
+    ·
+    <a href="https://62c30a4d61794705e2ca507f--strong-platypus-adb583.netlify.app/">Old version</a>
     ·
     <a href="https://github.com/mattbrambilla/Counter/issues">Report Bug</a>
     ·
