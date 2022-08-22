@@ -110,8 +110,10 @@ The project can used to learn Javascript basics and play with event.
 ## Roadmap
 
 - [x] Add Changelog
-- [ ] Improve graphics
+- [X ] Improve graphics
     - [ ] Center number
+    - [ ] Optimize for all devices
+    - [ ] Use cookie to remember the count
 
 See the [open issues](https://github.com/mattbrambilla/Counter/issues) for a full list of proposed features (and known issues).
 
