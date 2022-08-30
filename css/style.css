@@ -59,7 +59,7 @@ body {
     height: 450px;
     -webkit-clip-path: circle(50% at 50% 50%);
     clip-path: circle(50% at 50% 50%);
-    position: absolute;
+    position: fixed;
     overflow: hidden;
     z-index: 100;
     margin-top: 10rem;
